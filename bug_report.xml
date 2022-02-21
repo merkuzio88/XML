@@ -1,5 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bug_report>
+<ID>1</ID>
+<Version>2</Version>
+<Project>Main</Project>
+<Title>Calculator error</Title>
 <Summary>Incorrect result of addition (+) for three-digit numbers in calculator</Summary>
 <Description>Calculator gives wrong math result addition (+) of three-digit numbers (444+444=903). It is math Incorrect result</Description>
+<Environment>Win 7</Environment>
 <Actual_result>В результате получилось: 903</Actual_result>
 <Expected_result>В результате получилось: 888</Expected_result>
 <Requirement_ID>math</Requirement_ID>
@@ -13,3 +20,5 @@
    <4>click "4" button three times</4>
    <5>click "=" button</5>
 </Steps_to_reproduce>
+<Attachment>No</Attachment>
+</Bug_report>
